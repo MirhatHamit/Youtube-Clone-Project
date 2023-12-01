@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(15, 15, 15);
+  overflow-x: hidden;
+}
+
+.videos {
+  width: 100%;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minMax(350px, 450px));
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+  .videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    gap: 50px;
+    padding: 20px;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 169px auto;
+  gap: 10px;
+}
