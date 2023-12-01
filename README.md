@@ -1,3 +1,6 @@
+
+![ezgif com-video-to-gif](https://github.com/MirhatHamit/Youtube-Clone-Project/assets/138917060/edddf8da-704b-4e81-9f86-16ba865dd02f)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
